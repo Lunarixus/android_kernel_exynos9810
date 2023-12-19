@@ -1521,7 +1521,7 @@ void sec_ts_set_grip_type(struct sec_ts_data *ts, u8 set_type)
 	}
 
 	if (mode)
-		set_grip_data_to_ic(ts, mode);
+		set_sec_grip_data_to_ic(ts, mode);
 
 }
 

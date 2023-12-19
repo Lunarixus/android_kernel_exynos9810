@@ -860,7 +860,7 @@ extern struct sec_ts_data *ts_dup;
 extern unsigned int lpcharge;
 #endif
 
-extern void set_grip_data_to_ic(struct sec_ts_data *ts, u8 flag);
+extern void set_sec_grip_data_to_ic(struct sec_ts_data *ts, u8 flag);
 extern void sec_ts_set_grip_type(struct sec_ts_data *ts, u8 set_type);
 
 #ifdef CONFIG_TRUSTONIC_TRUSTED_UI
